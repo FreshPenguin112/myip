@@ -1,3 +1,6 @@
+<script src="https://cdn.jsdelivr.net/gh/jackspirou/clientjs@master/dist/client.min.js"></script>
 <script>
-  alert(Browser|BrowserVersion|OS|OSVersion|Processor|MozzilaMajorVersion|GeckoMajorVersion)
+  var client = new ClientJS();
+  alert(client.getUserAgent();)
+  alert(client.getFingerprint();)
 </script
